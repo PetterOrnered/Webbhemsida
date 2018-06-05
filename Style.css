@@ -1,0 +1,66 @@
+body {
+	background-color:#5B5B5B;
+}
+
+ul{
+    list-style-type: none;
+		margin: 0;
+	width: 200px;
+            }
+    
+	
+
+	li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+	}
+
+	li a.active {
+    background-color: blueviolet;
+		color: white;}
+
+
+	li a:hover:not(.active) {
+		background-color:#555;
+    color: white;
+	}
+.form{
+	position: absolute;
+	float: left;
+	left: 400px;
+	top 0px;
+}
+
+
+.bildhome
+{   
+	position: absolute;
+	float: left;
+	left: 400px;
+	top: 100px;
+
+}
+	
+.infotable
+{
+  table, th, td{
+    border: 1px solid black;}
+}
+
+.bilddrink
+{
+position: absolute;
+float: left;
+left: 400px;
+	top: 100px;
+	
+}
+.bildmat
+{
+position: absolute;
+float: left;
+left: 400px;
+	top: 50px;
+}
